@@ -1,0 +1,25 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "a simple weather app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "start_dev": "npx nodemon node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monybaruch/Weather-App.git"
+  },
+  "author": "Mony Baruch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monybaruch/Weather-App/issues"
+  },
+  "homepage": "https://github.com/monybaruch/Weather-App#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  }
+}
