@@ -4,9 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background: #333;
+      }
+      h1 {
+        font-size: 3rem;
+        color: whitesmoke;
+      }
+      form {
+        color: beige;
+        margin-left: 1rem;
+        font-size: 2rem;
+      }
+      input {
+        padding: 0.5rem;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+      }
+      button {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-top: 2rem;
+        background-color: brown;
+        border-radius: 10px;
+      }
+    </style>
     <title>Weather App</title>
   </head>
   <body>
-    <h1>Welcome to my weather app</h1>
+    <form action="/" method="post">
+      <h1>Enter a city name to check the daily weather</h1>
+      <label for="city">City Name:</label>
+      <input type="text" id="city" name="cityName" />
+      <br />
+      <button type="submit">Click Me</button>
+    </form>
   </body>
 </html>
